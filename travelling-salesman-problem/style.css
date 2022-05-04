@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(53, 53, 53);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    margin: 1em 0em;
+}
+
+/*======================*/
+/*Form Section*/
+form{
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;
+    border: solid 3px rgb(212, 212, 212);
+    box-shadow: 5px 5px 10px rgb(177, 177, 177);
+    width: 70%;
+    padding: 1em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form label{
+    font-size: 1.3em;
+    font-weight: 700;
+}
+form .inputs{
+    margin: .5em 0;
+}
+form input{
+    border: solid 2px rgb(53, 53, 53);
+    border-radius: 5px;
+    margin: .2em 0;
+    width: 110px;
+    font-size: 1.5rem;
+}
+form button{
+    padding: .3em .6em;
+    font-size: 1.2rem;
+    border: none;
+    background-color: rgb(67, 209, 126);
+    border-radius: 5px;
+}
+form .buttons{
+    margin: .5em 0;
+}
+/*======================*/
+/*Output template*/
+#input-values{
+    margin: 1em 0em;
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;
+    border: solid 3px rgb(212, 212, 212);
+    box-shadow: 5px 5px 10px rgb(177, 177, 177);
+    width: 70%;
+    padding: 1em 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+#input-values h5{
+    margin: .3em .5em;
+    border: solid 3px rgb(212, 212, 212);
+    border-radius: 10px;
+    padding: .5em  1em;
+    font-size: 1rem;
+}
+.first{
+    color:  rgb(67, 209, 126);
+}
+
+/*======================*/
+/*Output section*/
+#output-section{
+    margin: 1em 0em;
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;
+    border: solid 3px rgb(212, 212, 212);
+    box-shadow: 5px 5px 10px rgb(177, 177, 177);
+    width: 80%;
+    padding: 1em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+/*======================*/
+/*Output template*/
+.output{
+    width: 90%;
+    margin: 1em 0;
+    padding: 1em 2em;
+    border-top: solid 3px rgb(53, 53, 53);
+}
+.output h3{
+    font-size: 1.1rem;
+    margin-bottom: .5em;
+}
+.output h5{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.won{
+    font-size: 1.2rem;
+    color: rgb(67, 209, 126);
+}
+
+#path-to-take{
+    margin: 1em 0em;
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;
+    border: solid 3px rgb(212, 212, 212);
+    box-shadow: 5px 5px 10px rgb(177, 177, 177);
+    width: 80%;
+    padding: 1em 1.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#path-to-take h5{
+    font-size: 1.1rem;
+}
